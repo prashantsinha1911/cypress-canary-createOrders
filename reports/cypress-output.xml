@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="93.0230" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-08-24T07:42:12" tests="0" file="cypress/integration/orders/test_marginEdge_orders.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Orders Scenarios - Test 1 (Closed Order)" timestamp="2022-08-24T07:42:12" tests="2" time="93.0230" failures="0">
+    <testcase name="Orders Scenarios - Test 1 (Closed Order) Login as Test User, Upload Invoice and Cancel Preprocessing" time="35.1940" classname="Login as Test User, Upload Invoice and Cancel Preprocessing">
+    </testcase>
+    <testcase name="Orders Scenarios - Test 1 (Closed Order)  Login as Test User, Complete IR, Recon and Close the Order from FR State" time="57.8290" classname=" Login as Test User, Complete IR, Recon and Close the Order from FR State">
+    </testcase>
+  </testsuite>
+</testsuites>

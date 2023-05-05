@@ -1,0 +1,21 @@
+{
+  "name": "core-features-canary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:uiAutomationStageRC": "node_modules/cypress/bin/cypress run --env host=https://stagerc.marginedge.com/ --headless --browser chrome",
+    "test:uiAutomationProd": "node_modules/cypress/bin/cypress run --env host=https://app.marginedge.com/ --headless --browser chrome",
+    "cy:verify": "node_modules/cypress/bin/cypress verify",
+    "cy:verifyAWS": "/usr/lib/node_modules/cypress/bin/cypress verify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/marginedge/core-features-canary#readme",
+  "devDependencies": {
+    "cypress": "10.3.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-xpath": "^2.0.1"
+  }
+}
